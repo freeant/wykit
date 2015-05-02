@@ -14,6 +14,20 @@
 		D1BA49111AF4CDA200C96A38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1BA49101AF4CDA200C96A38 /* Images.xcassets */; };
 		D1BA49141AF4CDA200C96A38 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1BA49121AF4CDA200C96A38 /* LaunchScreen.xib */; };
 		D1BA49201AF4CDA200C96A38 /* wykitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA491F1AF4CDA200C96A38 /* wykitTests.m */; };
+		D1BA49AC1AF4CDCD00C96A38 /* AutoCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA49911AF4CDCD00C96A38 /* AutoCoding.m */; };
+		D1BA49AD1AF4CDCD00C96A38 /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA49931AF4CDCD00C96A38 /* EGOCache.m */; };
+		D1BA49AE1AF4CDCD00C96A38 /* INTULocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA49961AF4CDCD00C96A38 /* INTULocationManager.m */; };
+		D1BA49AF1AF4CDCD00C96A38 /* INTULocationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA49981AF4CDCD00C96A38 /* INTULocationRequest.m */; };
+		D1BA49B01AF4CDCD00C96A38 /* OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA499C1AF4CDCD00C96A38 /* OrderedDictionary.m */; };
+		D1BA49B11AF4CDCD00C96A38 /* WYConstants-Private.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA499E1AF4CDCD00C96A38 /* WYConstants-Private.m */; };
+		D1BA49B21AF4CDCD00C96A38 /* WYFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA49A01AF4CDCD00C96A38 /* WYFile.m */; };
+		D1BA49B31AF4CDCD00C96A38 /* WYGeoPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA49A21AF4CDCD00C96A38 /* WYGeoPoint.m */; };
+		D1BA49B41AF4CDCD00C96A38 /* WYInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA49A31AF4CDCD00C96A38 /* WYInstallation.m */; };
+		D1BA49B51AF4CDCD00C96A38 /* WYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA49A51AF4CDCD00C96A38 /* WYKit.m */; };
+		D1BA49B61AF4CDCD00C96A38 /* WYNetworkActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA49A61AF4CDCD00C96A38 /* WYNetworkActivity.m */; };
+		D1BA49B71AF4CDCD00C96A38 /* WYObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA49A81AF4CDCD00C96A38 /* WYObject.m */; };
+		D1BA49B91AF4CDCD00C96A38 /* WYQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA49AA1AF4CDCD00C96A38 /* WYQuery.m */; };
+		D1BA49BA1AF4CDCD00C96A38 /* WYUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA49AB1AF4CDCD00C96A38 /* WYUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +54,42 @@
 		D1BA49191AF4CDA200C96A38 /* wykitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wykitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1BA491E1AF4CDA200C96A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1BA491F1AF4CDA200C96A38 /* wykitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wykitTests.m; sourceTree = "<group>"; };
+		D1BA49821AF4CDCD00C96A38 /* WYConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYConstants.h; sourceTree = "<group>"; };
+		D1BA49831AF4CDCD00C96A38 /* WYFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYFile.h; sourceTree = "<group>"; };
+		D1BA49841AF4CDCD00C96A38 /* WYGeoPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYGeoPoint.h; sourceTree = "<group>"; };
+		D1BA49851AF4CDCD00C96A38 /* WYInstallation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYInstallation.h; sourceTree = "<group>"; };
+		D1BA49861AF4CDCD00C96A38 /* WYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYKit.h; sourceTree = "<group>"; };
+		D1BA49871AF4CDCD00C96A38 /* WYNetworkActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYNetworkActivity.h; sourceTree = "<group>"; };
+		D1BA49881AF4CDCD00C96A38 /* WYObject+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WYObject+Subclass.h"; sourceTree = "<group>"; };
+		D1BA49891AF4CDCD00C96A38 /* WYObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYObject.h; sourceTree = "<group>"; };
+		D1BA498B1AF4CDCD00C96A38 /* WYQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYQuery.h; sourceTree = "<group>"; };
+		D1BA498C1AF4CDCD00C96A38 /* WYSubclassing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYSubclassing.h; sourceTree = "<group>"; };
+		D1BA498D1AF4CDCD00C96A38 /* WYUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYUser.h; sourceTree = "<group>"; };
+		D1BA49901AF4CDCD00C96A38 /* AutoCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCoding.h; sourceTree = "<group>"; };
+		D1BA49911AF4CDCD00C96A38 /* AutoCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCoding.m; sourceTree = "<group>"; };
+		D1BA49921AF4CDCD00C96A38 /* EGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
+		D1BA49931AF4CDCD00C96A38 /* EGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
+		D1BA49951AF4CDCD00C96A38 /* INTULocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTULocationManager.h; sourceTree = "<group>"; };
+		D1BA49961AF4CDCD00C96A38 /* INTULocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTULocationManager.m; sourceTree = "<group>"; };
+		D1BA49971AF4CDCD00C96A38 /* INTULocationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTULocationRequest.h; sourceTree = "<group>"; };
+		D1BA49981AF4CDCD00C96A38 /* INTULocationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTULocationRequest.m; sourceTree = "<group>"; };
+		D1BA49991AF4CDCD00C96A38 /* INTULocationRequestDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTULocationRequestDefines.h; sourceTree = "<group>"; };
+		D1BA499B1AF4CDCD00C96A38 /* OrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderedDictionary.h; sourceTree = "<group>"; };
+		D1BA499C1AF4CDCD00C96A38 /* OrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderedDictionary.m; sourceTree = "<group>"; };
+		D1BA499D1AF4CDCD00C96A38 /* WYConstants-Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WYConstants-Private.h"; sourceTree = "<group>"; };
+		D1BA499E1AF4CDCD00C96A38 /* WYConstants-Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WYConstants-Private.m"; sourceTree = "<group>"; };
+		D1BA499F1AF4CDCD00C96A38 /* WYFile-Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WYFile-Private.h"; sourceTree = "<group>"; };
+		D1BA49A01AF4CDCD00C96A38 /* WYFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYFile.m; sourceTree = "<group>"; };
+		D1BA49A11AF4CDCD00C96A38 /* WYGeoPoint-Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WYGeoPoint-Private.h"; sourceTree = "<group>"; };
+		D1BA49A21AF4CDCD00C96A38 /* WYGeoPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYGeoPoint.m; sourceTree = "<group>"; };
+		D1BA49A31AF4CDCD00C96A38 /* WYInstallation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYInstallation.m; sourceTree = "<group>"; };
+		D1BA49A41AF4CDCD00C96A38 /* WYKit-Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WYKit-Private.h"; sourceTree = "<group>"; };
+		D1BA49A51AF4CDCD00C96A38 /* WYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYKit.m; sourceTree = "<group>"; };
+		D1BA49A61AF4CDCD00C96A38 /* WYNetworkActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYNetworkActivity.m; sourceTree = "<group>"; };
+		D1BA49A71AF4CDCD00C96A38 /* WYObject-Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WYObject-Private.h"; sourceTree = "<group>"; };
+		D1BA49A81AF4CDCD00C96A38 /* WYObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYObject.m; sourceTree = "<group>"; };
+		D1BA49AA1AF4CDCD00C96A38 /* WYQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYQuery.m; sourceTree = "<group>"; };
+		D1BA49AB1AF4CDCD00C96A38 /* WYUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +131,7 @@
 		D1BA49021AF4CDA200C96A38 /* wykit */ = {
 			isa = PBXGroup;
 			children = (
+				D1BA49801AF4CDCD00C96A38 /* WYKit */,
 				D1BA49071AF4CDA200C96A38 /* AppDelegate.h */,
 				D1BA49081AF4CDA200C96A38 /* AppDelegate.m */,
 				D1BA490A1AF4CDA200C96A38 /* ViewController.h */,
@@ -117,6 +168,89 @@
 				D1BA491E1AF4CDA200C96A38 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1BA49801AF4CDCD00C96A38 /* WYKit */ = {
+			isa = PBXGroup;
+			children = (
+				D1BA49811AF4CDCD00C96A38 /* Headers */,
+				D1BA498E1AF4CDCD00C96A38 /* WYKit-Private */,
+			);
+			path = WYKit;
+			sourceTree = "<group>";
+		};
+		D1BA49811AF4CDCD00C96A38 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				D1BA49821AF4CDCD00C96A38 /* WYConstants.h */,
+				D1BA49831AF4CDCD00C96A38 /* WYFile.h */,
+				D1BA49841AF4CDCD00C96A38 /* WYGeoPoint.h */,
+				D1BA49851AF4CDCD00C96A38 /* WYInstallation.h */,
+				D1BA49861AF4CDCD00C96A38 /* WYKit.h */,
+				D1BA49871AF4CDCD00C96A38 /* WYNetworkActivity.h */,
+				D1BA49881AF4CDCD00C96A38 /* WYObject+Subclass.h */,
+				D1BA49891AF4CDCD00C96A38 /* WYObject.h */,
+				D1BA498B1AF4CDCD00C96A38 /* WYQuery.h */,
+				D1BA498C1AF4CDCD00C96A38 /* WYSubclassing.h */,
+				D1BA498D1AF4CDCD00C96A38 /* WYUser.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		D1BA498E1AF4CDCD00C96A38 /* WYKit-Private */ = {
+			isa = PBXGroup;
+			children = (
+				D1BA498F1AF4CDCD00C96A38 /* AutoCoding */,
+				D1BA49921AF4CDCD00C96A38 /* EGOCache.h */,
+				D1BA49931AF4CDCD00C96A38 /* EGOCache.m */,
+				D1BA49941AF4CDCD00C96A38 /* INTULocationManager */,
+				D1BA499A1AF4CDCD00C96A38 /* OrderedDictionary */,
+				D1BA499D1AF4CDCD00C96A38 /* WYConstants-Private.h */,
+				D1BA499E1AF4CDCD00C96A38 /* WYConstants-Private.m */,
+				D1BA499F1AF4CDCD00C96A38 /* WYFile-Private.h */,
+				D1BA49A01AF4CDCD00C96A38 /* WYFile.m */,
+				D1BA49A11AF4CDCD00C96A38 /* WYGeoPoint-Private.h */,
+				D1BA49A21AF4CDCD00C96A38 /* WYGeoPoint.m */,
+				D1BA49A31AF4CDCD00C96A38 /* WYInstallation.m */,
+				D1BA49A41AF4CDCD00C96A38 /* WYKit-Private.h */,
+				D1BA49A51AF4CDCD00C96A38 /* WYKit.m */,
+				D1BA49A61AF4CDCD00C96A38 /* WYNetworkActivity.m */,
+				D1BA49A71AF4CDCD00C96A38 /* WYObject-Private.h */,
+				D1BA49A81AF4CDCD00C96A38 /* WYObject.m */,
+				D1BA49AA1AF4CDCD00C96A38 /* WYQuery.m */,
+				D1BA49AB1AF4CDCD00C96A38 /* WYUser.m */,
+			);
+			path = "WYKit-Private";
+			sourceTree = "<group>";
+		};
+		D1BA498F1AF4CDCD00C96A38 /* AutoCoding */ = {
+			isa = PBXGroup;
+			children = (
+				D1BA49901AF4CDCD00C96A38 /* AutoCoding.h */,
+				D1BA49911AF4CDCD00C96A38 /* AutoCoding.m */,
+			);
+			path = AutoCoding;
+			sourceTree = "<group>";
+		};
+		D1BA49941AF4CDCD00C96A38 /* INTULocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				D1BA49951AF4CDCD00C96A38 /* INTULocationManager.h */,
+				D1BA49961AF4CDCD00C96A38 /* INTULocationManager.m */,
+				D1BA49971AF4CDCD00C96A38 /* INTULocationRequest.h */,
+				D1BA49981AF4CDCD00C96A38 /* INTULocationRequest.m */,
+				D1BA49991AF4CDCD00C96A38 /* INTULocationRequestDefines.h */,
+			);
+			path = INTULocationManager;
+			sourceTree = "<group>";
+		};
+		D1BA499A1AF4CDCD00C96A38 /* OrderedDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				D1BA499B1AF4CDCD00C96A38 /* OrderedDictionary.h */,
+				D1BA499C1AF4CDCD00C96A38 /* OrderedDictionary.m */,
+			);
+			path = OrderedDictionary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +353,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1BA49AE1AF4CDCD00C96A38 /* INTULocationManager.m in Sources */,
+				D1BA49B01AF4CDCD00C96A38 /* OrderedDictionary.m in Sources */,
+				D1BA49B31AF4CDCD00C96A38 /* WYGeoPoint.m in Sources */,
+				D1BA49AC1AF4CDCD00C96A38 /* AutoCoding.m in Sources */,
 				D1BA490C1AF4CDA200C96A38 /* ViewController.m in Sources */,
+				D1BA49B71AF4CDCD00C96A38 /* WYObject.m in Sources */,
+				D1BA49B51AF4CDCD00C96A38 /* WYKit.m in Sources */,
+				D1BA49B41AF4CDCD00C96A38 /* WYInstallation.m in Sources */,
 				D1BA49091AF4CDA200C96A38 /* AppDelegate.m in Sources */,
+				D1BA49B11AF4CDCD00C96A38 /* WYConstants-Private.m in Sources */,
+				D1BA49B61AF4CDCD00C96A38 /* WYNetworkActivity.m in Sources */,
+				D1BA49AF1AF4CDCD00C96A38 /* INTULocationRequest.m in Sources */,
+				D1BA49B21AF4CDCD00C96A38 /* WYFile.m in Sources */,
 				D1BA49061AF4CDA200C96A38 /* main.m in Sources */,
+				D1BA49B91AF4CDCD00C96A38 /* WYQuery.m in Sources */,
+				D1BA49BA1AF4CDCD00C96A38 /* WYUser.m in Sources */,
+				D1BA49AD1AF4CDCD00C96A38 /* EGOCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
